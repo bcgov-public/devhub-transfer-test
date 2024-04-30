@@ -1,10 +1,10 @@
 version: 1
 data_management_roles:
-  product_owner: 
+  product_owner: it's me
 product_information:
-  ministry: 
+  ministry: TACS
   product_acronym: 
-  product_description: Truely a becon shining down on a shadowy world of lesser docs
-  product_name: 
+  product_description: Truely a becon shining down on a shadowy world of lesser docs-public
+  product_name: DazzlingDocs
 product_technology_information:
   hosting_platforms: Private-Cloud-Openshift
