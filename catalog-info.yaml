@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: omg-dazzling-docs
+  title: OMG dazzling docs
+  description: Truely a becon shining down on a shadowy world of lesser docs
+  annotations:
+    github.com/project-slug: bcgov/devhub-transfer-test
+    backstage.io/techdocs-ref: dir:.
+    developer.gov.bc.ca/source_template: default/docs-template
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: developer-experience
