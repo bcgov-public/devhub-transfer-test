@@ -1,14 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: omg-dazzling-docs
-  title: OMG dazzling docs
-  description: Truely a becon shining down on a shadowy world of lesser docs
+  name: omg-dazzling-docs-redux
+  title: OMG dazzling docs redux
+  description: Truely a becon shining down on a shadowy world of lesser docs-public
   annotations:
-    github.com/project-slug: bcgov/devhub-transfer-test
+    github.com/project-slug: bcgov-public/devhub-transfer-test
     backstage.io/techdocs-ref: dir:.
-    developer.gov.bc.ca/source_template: default/docs-template
+    bcgovpubcode.gov.bc.ca/ministry: TACS
+    bcgovpubcode.gov.bc.ca/product_name: DazzlingDocs
+    bcgovpubcode.gov.bc.ca/product_owner: it's me
+    developer.gov.bc.ca/source_template: default/transfer-repo
 spec:
   type: documentation
   lifecycle: experimental
-  owner: developer-experience
+  owner: group:bcgov-public/developer-experience
