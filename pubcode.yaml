@@ -4,7 +4,7 @@ data_management_roles:
 product_information:
   ministry: 
   product_acronym: 
-  product_description: Truely a becon shining down on a shadowy world of lesser docs
+  product_description: devhub-transfer-test
   product_name: 
 product_technology_information:
   hosting_platforms: Private-Cloud-Openshift
